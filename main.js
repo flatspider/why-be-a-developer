@@ -4,7 +4,6 @@ var canvas = document.getElementById('responsive-canvas');
 var heightRatio = 1.618;
 
 canvas.height = canvas.width * heightRatio; // Establishes a dynamic height for the canvas.
-
  
 // The variable "canvas" is set as the first item within the document id'd as canvas.            
 // Canvas is defined in the HTMl page
@@ -29,7 +28,6 @@ canvas.height = canvas.width * heightRatio; // Establishes a dynamic height for 
             var vx = Math.floor(Math.random() * 2) + 2;
             var vy = Math.floor(Math.random() * 4) + 2; // Why not just set the speed to a constant value?
             var radius = 20;
-
 
            // Instead of elem, use ball. 
  
