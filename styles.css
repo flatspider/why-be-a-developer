@@ -1,0 +1,18 @@
+h1 {
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+ 
+canvas {
+    background-color: #F08080;
+    width: 100%; /* Width changed from 600px to 100%. */
+    /* height: 600px; */
+    height: 100%;
+    position: relative;
+    top: 20%;
+    left: 0;
+}
